@@ -14,7 +14,7 @@
     @keyframes ctaFlow{0%{background-position:0% 50%}100%{background-position:220% 50%}}
     a,button{transition:background .35s ease,border-color .35s ease,color .3s ease,box-shadow .4s ease,transform .2s ease,filter .3s ease}
     html{scroll-behavior:smooth}
-    body{margin:0;padding:0;background:#fff;color:#52617a;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+    body{margin:0;padding:0;overflow-x:clip;background:#fff;color:#52617a;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
     img{display:block;max-width:100%}
     ::selection{background:#ee6a1e;color:#fff}
     @media(max-width:920px){
@@ -47,7 +47,7 @@
 </head>
 <body>
 <div style="font-family:'Plus Jakarta Sans',sans-serif;background:#fff">
-  <div style="font-family:'Plus Jakarta Sans',sans-serif">
+  <div style="display:contents">
   <div style="position:sticky;top:0;z-index:50">
     <div style="background:#15171b;color:#aebfd2">
       <div style="max-width:1240px;margin:0 auto;padding:9px 28px;display:flex;justify-content:space-between;align-items:center;gap:16px;font-size:13px;font-weight:500">
@@ -260,7 +260,7 @@
     </div>
   </section>
 
-  <div style="font-family:'Plus Jakarta Sans',sans-serif">
+  <div style="display:contents">
   <section style="background:#ee6a1e;position:relative;overflow:hidden">
     <div style="position:absolute;inset:0;background:radial-gradient(circle at 80% 20%,rgba(255,255,255,0.16),transparent 45%),linear-gradient(120deg,rgba(0,0,0,0.12),transparent 50%);pointer-events:none"></div>
     <div class="cta-band wrap" style="max-width:1100px;margin:0 auto;padding:70px 28px;position:relative;text-align:center;display:flex;flex-direction:column;align-items:center;gap:22px">
