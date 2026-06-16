@@ -1,5 +1,7 @@
 # Accelerate Plumbing & Heating — Website
 
+**Live site:** https://accelerate-plumbing.vercel.app
+
 A fast, static marketing site for Accelerate Plumbing & Heating Ltd. (Prince George, BC).
 Plain HTML, CSS, and a single vanilla-JavaScript file — no build step, no framework, no dependencies.
 
