@@ -24,6 +24,10 @@
       .hide-sm{display:none !important}
       .mobile-spacer{height:80px !important}
       .split{grid-template-columns:1fr !important;gap:44px !important}
+      .about-hero-img{position:static !important;width:100% !important;height:320px !important;display:block}
+      .about-hero-txt{max-width:100% !important}
+      .cred-tile{border-left:none !important;padding:6px 0 !important}
+      .cred-sa{border-left:none !important;padding-left:0 !important}
       .rg{grid-template-columns:1fr !important}
       .footer-grid{grid-template-columns:1fr 1fr !important;gap:34px !important}
       .cta-band{align-items:center !important}
@@ -107,53 +111,43 @@
 
 
   <!-- INTRO -->
-  <section class="sec" style="padding:90px 0">
-    <div class="wrap" style="max-width:1240px;margin:0 auto;padding:0 28px">
-      <div class="split" style="display:grid;grid-template-columns:1.08fr 0.92fr;gap:60px;align-items:start">
-        <div>
-          <div style="color:#ee6a1e;font-weight:700;font-size:13px;letter-spacing:2px;text-transform:uppercase;margin-bottom:14px">About Accelerate</div>
-          <h1 class="ph-h1" style="font-family:'Archivo',sans-serif;font-weight:800;font-size:46px;line-height:1.08;letter-spacing:-1.2px;color:#15171b;margin:0 0 22px">Built on <span style="color:#ee6a1e">quality workmanship.</span></h1>
-          <div style="font-size:17px;line-height:1.78;color:#52617a;display:flex;flex-direction:column;gap:18px">
-            <p style="margin:0">At Accelerate Plumbing &amp; Heating, we are a family-owned company proudly serving Prince George, BC and surrounding communities.</p>
-            <p style="margin:0">Founded with a commitment to raising the standard of workmanship in the industry, Accelerate Plumbing &amp; Heating was built on the belief that every installation should reflect quality, precision, and long-term reliability.</p>
-            <p style="margin:0">We take pride in approaching every project with professionalism, attention to detail, and a commitment to doing the job properly from start to finish.</p>
-          </div>
-        </div>
-        <div style="position:relative">
-          <div style="position:relative;aspect-ratio:4/5;background:#efeeeb;border:1px solid #e4e2dd;border-radius:20px;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:15px">
-            <img src="company-van.jpg" alt="Accelerate Plumbing &amp; Heating company van in Prince George, BC" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block">
-          </div>
-          <div style="position:absolute;right:-16px;bottom:28px;background:#ee6a1e;color:#fff;padding:18px 22px;border-radius:14px;box-shadow:0 18px 40px rgba(238,106,30,0.3)">
-            <div style="font-family:'Archivo',sans-serif;font-size:22px;font-weight:800;line-height:1">Landon Nelson</div>
-            <div style="font-size:13px;color:rgba(255,255,255,0.92);margin-top:4px;font-weight:600">Owner &amp; lead technician</div>
-          </div>
+  <section style="background:#efedea;position:relative;overflow:hidden">
+    <img class="about-hero-img" src="company-van.jpg" alt="Accelerate Plumbing &amp; Heating company van in Prince George, BC" style="position:absolute;top:0;right:0;height:100%;width:46%;object-fit:cover">
+    <div class="wrap" style="max-width:1240px;margin:0 auto;padding:92px 28px 96px">
+      <div class="about-hero-txt" style="max-width:48%">
+        <div style="color:#ee6a1e;font-weight:700;font-size:13px;letter-spacing:2px;text-transform:uppercase;margin-bottom:18px">About Accelerate</div>
+        <h1 class="ph-h1" style="font-family:'Archivo',sans-serif;font-weight:800;font-size:46px;line-height:1.1;letter-spacing:-1.2px;color:#15171b;margin:0 0 24px">Built on<br><span style="color:#ee6a1e">quality workmanship.</span></h1>
+        <div style="font-size:16.5px;line-height:1.75;color:#3f4a5c;display:flex;flex-direction:column;gap:16px">
+          <p style="margin:0">At Accelerate Plumbing &amp; Heating, we are a family-owned company proudly serving Prince George, BC and surrounding communities.</p>
+          <p style="margin:0">Founded with a commitment to raising the standard of workmanship in the industry, Accelerate Plumbing &amp; Heating was built on the belief that every installation should reflect quality, precision, and long-term reliability.</p>
+          <p style="margin:0">We take pride in approaching every project with professionalism, attention to detail, and a commitment to doing the job properly from start to finish.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- CREDENTIALS + SERVICE AREA -->
-  <section class="sec" style="background:#f5f4f2;padding:76px 0">
+  <section class="sec" style="background:#faf9f7;padding:80px 0">
     <div class="wrap" style="max-width:1240px;margin:0 auto;padding:0 28px">
-      <div class="split" style="display:grid;grid-template-columns:1.55fr 1fr;gap:56px;align-items:center">
-        <div class="rg" style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px 0">
-          <div style="padding:6px 24px;text-align:center">
-            <div style="display:flex;justify-content:center;margin-bottom:14px"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#ee6a1e" stroke-width="1.6" stroke-linejoin="round"><circle cx="12" cy="9" r="5.2"></circle><path d="M8.8 13.4 7.2 20l4.8-2.4 4.8 2.4-1.6-6.6"></path></svg></div>
+      <div class="split" style="display:grid;grid-template-columns:1.6fr 1fr;gap:44px;align-items:center">
+        <div class="rg" style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px 0;align-items:start">
+          <div class="cred-tile" style="padding:10px 26px;text-align:center">
+            <div style="display:flex;justify-content:center;margin-bottom:14px"><svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#ee6a1e" stroke-width="1.5" stroke-linejoin="round"><circle cx="12" cy="9" r="5.2"></circle><path d="M8.8 13.4 7.2 20l4.8-2.4 4.8 2.4-1.6-6.6"></path></svg></div>
             <div style="font-family:'Archivo',sans-serif;font-weight:800;font-size:17px;color:#15171b;margin-bottom:8px">Red Seal Plumber</div>
             <div style="font-size:14px;line-height:1.6;color:#52617a">Certified, trained and committed to the highest standard of work.</div>
           </div>
-          <div style="border-left:1px solid #e7e5e0;padding:6px 24px;text-align:center">
-            <div style="display:flex;justify-content:center;margin-bottom:14px"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#ee6a1e" stroke-width="1.6" stroke-linejoin="round"><path d="M12 3 5 5.8v5.4c0 4.3 3 7.9 7 9.3 4-1.4 7-5 7-9.3V5.8Z"></path></svg></div>
+          <div style="border-left:1px solid #e2ded8;padding:10px 26px;text-align:center">
+            <div style="display:flex;justify-content:center;margin-bottom:14px"><svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#ee6a1e" stroke-width="1.5" stroke-linejoin="round"><path d="M12 3 5 5.8v5.4c0 4.3 3 7.9 7 9.3 4-1.4 7-5 7-9.3V5.8Z"></path></svg></div>
             <div style="font-family:'Archivo',sans-serif;font-weight:800;font-size:17px;color:#15171b;margin-bottom:8px">Licensed &amp; Insured</div>
             <div style="font-size:14px;line-height:1.6;color:#52617a">Fully licensed and insured for your peace of mind.</div>
           </div>
-          <div style="border-left:1px solid #e7e5e0;padding:6px 24px;text-align:center">
-            <div style="display:flex;justify-content:center;margin-bottom:14px"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#ee6a1e" stroke-width="1.6" stroke-linejoin="round"><path d="M14.5 6.5a4 4 0 0 0-5.3 4.9L4 16.6V20h3.4l5.2-5.2a4 4 0 0 0 4.9-5.3L14.6 12l-2.6-2.6Z"></path></svg></div>
+          <div style="border-left:1px solid #e2ded8;padding:10px 26px;text-align:center">
+            <div style="display:flex;justify-content:center;margin-bottom:14px"><svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#ee6a1e" stroke-width="1.5" stroke-linejoin="round"><path d="M14.5 6.5a4 4 0 0 0-5.3 4.9L4 16.6V20h3.4l5.2-5.2a4 4 0 0 0 4.9-5.3L14.6 12l-2.6-2.6Z"></path></svg></div>
             <div style="font-family:'Archivo',sans-serif;font-weight:800;font-size:17px;color:#15171b;margin-bottom:8px">Quality Workmanship</div>
             <div style="font-size:14px;line-height:1.6;color:#52617a">Clean installs, reliable solutions and work that stands the test of time.</div>
           </div>
         </div>
-        <div>
+        <div class="cred-sa" style="border-left:1px solid #e2ded8;padding-left:48px">
           <div style="color:#ee6a1e;font-weight:700;font-size:13px;letter-spacing:2px;text-transform:uppercase;margin-bottom:14px">Service area</div>
           <h2 class="h-sec" style="font-family:'Archivo',sans-serif;font-weight:800;font-size:30px;line-height:1.14;letter-spacing:-0.8px;color:#15171b;margin:0 0 14px">Serving Prince George &amp; surrounding areas.</h2>
           <p style="font-size:16px;line-height:1.7;color:#52617a;margin:0 0 20px">Proudly providing plumbing, heating and gas fitting services throughout Prince George and the surrounding communities.</p>
