@@ -36,6 +36,10 @@
       .ph-h1{font-size:33px !important}
       .footer-grid{grid-template-columns:1fr !important}
     }
+    @media(max-width:920px){
+      .chip-row{justify-content:flex-start !important;flex-wrap:nowrap !important;overflow-x:auto !important;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+      .chip-row::-webkit-scrollbar{display:none}
+    }
   </style>
 <script src="app.js" defer></script>
 </head>
@@ -100,6 +104,19 @@
     <a href="contact.html" style="flex:1;text-align:center;background:linear-gradient(100deg,#e85f12,#f97c2f,#ffa052,#f97c2f,#e85f12);background-size:220% auto;animation:ctaFlow 4.5s linear infinite;color:#fff;font-weight:700;text-decoration:none;padding:14px;border-radius:9px">Request a Quote</a>
   </div>
 </div>
+
+  <!-- SERVICE CHIP BAR (Kanata-style) -->
+  <div style="background:#fff;border-bottom:1px solid #eef0f3">
+    <div class="wrap chip-row" style="max-width:1240px;margin:0 auto;padding:14px 28px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:center">
+      <a href="plumbing.html" style="display:inline-flex;align-items:center;gap:7px;border:1px solid #e2e0da;border-radius:999px;padding:9px 16px;font-size:13.5px;font-weight:600;color:#23262b;text-decoration:none;background:#fff;white-space:nowrap" data-hover="border-color:#ee6a1e;color:#ee6a1e"><span style="color:#ee6a1e">★</span>Service &amp; Repair</a>
+      <a href="plumbing.html" style="display:inline-flex;align-items:center;gap:7px;border:1px solid #e2e0da;border-radius:999px;padding:9px 16px;font-size:13.5px;font-weight:600;color:#23262b;text-decoration:none;background:#fff;white-space:nowrap" data-hover="border-color:#ee6a1e;color:#ee6a1e"><span style="color:#ee6a1e">★</span>Hot Water</a>
+      <a href="plumbing.html" style="display:inline-flex;align-items:center;gap:7px;border:1px solid #e2e0da;border-radius:999px;padding:9px 16px;font-size:13.5px;font-weight:600;color:#23262b;text-decoration:none;background:#fff;white-space:nowrap" data-hover="border-color:#ee6a1e;color:#ee6a1e"><span style="color:#ee6a1e">★</span>New Construction</a>
+      <a href="plumbing.html" style="display:inline-flex;align-items:center;gap:7px;border:1px solid #e2e0da;border-radius:999px;padding:9px 16px;font-size:13.5px;font-weight:600;color:#23262b;text-decoration:none;background:#fff;white-space:nowrap" data-hover="border-color:#ee6a1e;color:#ee6a1e"><span style="color:#ee6a1e">★</span>Rural Water</a>
+      <a href="heating.html" style="display:inline-flex;align-items:center;gap:7px;border:1px solid #e2e0da;border-radius:999px;padding:9px 16px;font-size:13.5px;font-weight:600;color:#23262b;text-decoration:none;background:#fff;white-space:nowrap" data-hover="border-color:#ee6a1e;color:#ee6a1e"><span style="color:#ee6a1e">★</span>Boilers &amp; Hydronics</a>
+      <a href="heating.html" style="display:inline-flex;align-items:center;gap:7px;border:1px solid #e2e0da;border-radius:999px;padding:9px 16px;font-size:13.5px;font-weight:600;color:#23262b;text-decoration:none;background:#fff;white-space:nowrap" data-hover="border-color:#ee6a1e;color:#ee6a1e"><span style="color:#ee6a1e">★</span>Furnaces</a>
+      <a href="heating.html" style="display:inline-flex;align-items:center;gap:7px;border:1px solid #e2e0da;border-radius:999px;padding:9px 16px;font-size:13.5px;font-weight:600;color:#23262b;text-decoration:none;background:#fff;white-space:nowrap" data-hover="border-color:#ee6a1e;color:#ee6a1e"><span style="color:#ee6a1e">★</span>Gas Fitting</a>
+    </div>
+  </div>
 
   <!-- PAGE HEADER -->
   <section style="background:#f5f4f2;position:relative;overflow:hidden;padding:72px 0 78px">

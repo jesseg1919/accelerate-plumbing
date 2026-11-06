@@ -43,6 +43,10 @@
       .footer-grid{grid-template-columns:1fr !important}
       .why-badge{right:10px !important;bottom:12px !important;padding:14px 18px !important}
     }
+    @media(max-width:920px){
+      .chip-row{justify-content:flex-start !important;flex-wrap:nowrap !important;overflow-x:auto !important;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+      .chip-row::-webkit-scrollbar{display:none}
+    }
   </style>
 <script src="app.js" defer></script>
 </head>
@@ -107,6 +111,19 @@
     <a href="contact.html" style="flex:1;text-align:center;background:linear-gradient(100deg,#e85f12,#f97c2f,#ffa052,#f97c2f,#e85f12);background-size:220% auto;animation:ctaFlow 4.5s linear infinite;color:#fff;font-weight:700;text-decoration:none;padding:14px;border-radius:9px">Request a Quote</a>
   </div>
 </div>
+
+  <!-- SERVICE CHIP BAR (Kanata-style) -->
+  <div style="background:#fff;border-bottom:1px solid #eef0f3">
+    <div class="wrap chip-row" style="max-width:1240px;margin:0 auto;padding:14px 28px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:center">
+      <a href="plumbing.html" style="display:inline-flex;align-items:center;gap:7px;border:1px solid #e2e0da;border-radius:999px;padding:9px 16px;font-size:13.5px;font-weight:600;color:#23262b;text-decoration:none;background:#fff;white-space:nowrap" data-hover="border-color:#ee6a1e;color:#ee6a1e"><span style="color:#ee6a1e">★</span>Service &amp; Repair</a>
+      <a href="plumbing.html" style="display:inline-flex;align-items:center;gap:7px;border:1px solid #e2e0da;border-radius:999px;padding:9px 16px;font-size:13.5px;font-weight:600;color:#23262b;text-decoration:none;background:#fff;white-space:nowrap" data-hover="border-color:#ee6a1e;color:#ee6a1e"><span style="color:#ee6a1e">★</span>Hot Water</a>
+      <a href="plumbing.html" style="display:inline-flex;align-items:center;gap:7px;border:1px solid #e2e0da;border-radius:999px;padding:9px 16px;font-size:13.5px;font-weight:600;color:#23262b;text-decoration:none;background:#fff;white-space:nowrap" data-hover="border-color:#ee6a1e;color:#ee6a1e"><span style="color:#ee6a1e">★</span>New Construction</a>
+      <a href="plumbing.html" style="display:inline-flex;align-items:center;gap:7px;border:1px solid #e2e0da;border-radius:999px;padding:9px 16px;font-size:13.5px;font-weight:600;color:#23262b;text-decoration:none;background:#fff;white-space:nowrap" data-hover="border-color:#ee6a1e;color:#ee6a1e"><span style="color:#ee6a1e">★</span>Rural Water</a>
+      <a href="heating.html" style="display:inline-flex;align-items:center;gap:7px;border:1px solid #e2e0da;border-radius:999px;padding:9px 16px;font-size:13.5px;font-weight:600;color:#23262b;text-decoration:none;background:#fff;white-space:nowrap" data-hover="border-color:#ee6a1e;color:#ee6a1e"><span style="color:#ee6a1e">★</span>Boilers &amp; Hydronics</a>
+      <a href="heating.html" style="display:inline-flex;align-items:center;gap:7px;border:1px solid #e2e0da;border-radius:999px;padding:9px 16px;font-size:13.5px;font-weight:600;color:#23262b;text-decoration:none;background:#fff;white-space:nowrap" data-hover="border-color:#ee6a1e;color:#ee6a1e"><span style="color:#ee6a1e">★</span>Furnaces</a>
+      <a href="heating.html" style="display:inline-flex;align-items:center;gap:7px;border:1px solid #e2e0da;border-radius:999px;padding:9px 16px;font-size:13.5px;font-weight:600;color:#23262b;text-decoration:none;background:#fff;white-space:nowrap" data-hover="border-color:#ee6a1e;color:#ee6a1e"><span style="color:#ee6a1e">★</span>Gas Fitting</a>
+    </div>
+  </div>
 
   <!-- HERO -->
   <section style="background:#f5f4f2;position:relative;overflow:hidden">
@@ -364,6 +381,23 @@
           </div>
         
       </div>
+    </div>
+  </section>
+
+  <!-- LOCAL COVERAGE (Kanata-style service-area chips) -->
+  <section class="sec" style="background:#f5f4f2;padding:84px 0;text-align:center">
+    <div class="wrap" style="max-width:900px;margin:0 auto;padding:0 28px">
+      <div style="color:#ee6a1e;font-weight:700;font-size:13px;letter-spacing:2px;text-transform:uppercase;margin-bottom:14px">Local coverage</div>
+      <h2 class="h-sec" style="font-family:'Archivo',sans-serif;font-weight:800;font-size:34px;line-height:1.12;letter-spacing:-1px;color:#15171b;margin:0 0 16px">Serving Prince George &amp; the surrounding region</h2>
+      <p style="font-size:16.5px;line-height:1.65;color:#52617a;margin:0 auto 32px;max-width:620px">We provide plumbing, heating and gas fitting in Prince George, Mackenzie, Vanderhoof, Fort St. James and Quesnel &mdash; and the communities in between.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center">
+        <span style="display:inline-flex;align-items:center;gap:7px;background:#ee6a1e;border:1px solid #ee6a1e;color:#fff;border-radius:999px;padding:10px 18px;font-size:14px;font-weight:600"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 21c5-4.5 7-8 7-11a7 7 0 1 0-14 0c0 3 2 6.5 7 11Z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>Prince George</span>
+        <span style="display:inline-flex;align-items:center;background:#fff;border:1px solid #e2e0da;color:#23262b;border-radius:999px;padding:10px 18px;font-size:14px;font-weight:600">Mackenzie</span>
+        <span style="display:inline-flex;align-items:center;background:#fff;border:1px solid #e2e0da;color:#23262b;border-radius:999px;padding:10px 18px;font-size:14px;font-weight:600">Vanderhoof</span>
+        <span style="display:inline-flex;align-items:center;background:#fff;border:1px solid #e2e0da;color:#23262b;border-radius:999px;padding:10px 18px;font-size:14px;font-weight:600">Fort St. James</span>
+        <span style="display:inline-flex;align-items:center;background:#fff;border:1px solid #e2e0da;color:#23262b;border-radius:999px;padding:10px 18px;font-size:14px;font-weight:600">Quesnel</span>
+      </div>
+      <p style="font-size:14px;color:#8595a8;margin:26px 0 0">Don&rsquo;t see your town? Give us a call &mdash; chances are we cover it.</p>
     </div>
   </section>
 
